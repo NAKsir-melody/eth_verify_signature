@@ -1,0 +1,5 @@
+personal.newAccount("admin")
+web3.eth.defaultAccount = eth.accounts[0]
+miner.start(1)
+miner.stop()
+web3.personal.unlockAccount(eth.accounts[0], "admin", 0)
